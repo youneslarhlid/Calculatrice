@@ -32,6 +32,28 @@ button {
     border: 1px solid black;
     border-radius: 70px;
 }
+.first-row .clear {
+    background-color: orange;
+}
+.fifth-row .egal{
+    background-color: rgb(102, 255, 102);
+}
+
+.fifth-row .egal:hover{
+    cursor: pointer;
+    background-color: rgb(4, 161, 51);
+}
+.fifth-row .egal:active{
+    background-color: rgb(1, 117, 36);
+}
+
+.first-row .clear:hover {
+    cursor: pointer;
+    background-color: rgb(207, 135, 1);
+}
+.first-row .clear:active {
+    background-color: rgb(153, 100, 1);
+}
 
 button:hover {
     cursor: pointer;
