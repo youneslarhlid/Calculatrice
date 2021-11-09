@@ -29,6 +29,7 @@ body{
     color: #333;
     font-weight: 500;
     cursor: pointer;
+    border: 1px solid black;
 }
 
 .calculator span:hover{
