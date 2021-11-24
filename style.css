@@ -29,7 +29,6 @@ body{
     color: #333;
     font-weight: 500;
     cursor: pointer;
-    border: 1px solid black;
 }
 
 .calculator span:hover{
@@ -64,6 +63,8 @@ body{
     font-style: 1.3em;
     font-size: 20px;
     height:100px;
+    background-color: #393e46;
+    color: white;
 
 }
  .calculator .perc{
@@ -93,9 +94,10 @@ body{
      height: 400px;
      overflow-y: scroll;
      font-style: 1.1em;
-     background: #4b7bec;
+     background: #393e46;
      box-sizing: border-box;
      padding: 10px 20px;
+     border-left: 1px grey solid;
  }
 
  #history::-webkit-scrollbar{
@@ -105,11 +107,18 @@ body{
  #history h3{
      padding: 10px 0px;
      font-size: 1.2em;
+     color: white;
+ }
+ #history p{
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
  }
 
  #history p:last-child{
      font-size: 1.3em;
      font-weight: 500;
-     color: #eee;
+     color: #4b7bec;
  }
+ 
 
