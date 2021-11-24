@@ -63,6 +63,8 @@ body{
     font-style: 1.3em;
     font-size: 20px;
     height:100px;
+    background-color: #393e46;
+    color: white;
 
 }
  .calculator .perc{
@@ -95,6 +97,7 @@ body{
      background: #4b7bec;
      box-sizing: border-box;
      padding: 10px 20px;
+     border-left: 1px white solid;
  }
 
  #history::-webkit-scrollbar{
@@ -104,6 +107,7 @@ body{
  #history h3{
      padding: 10px 0px;
      font-size: 1.2em;
+     color: white;
  }
 
  #history p:last-child{
