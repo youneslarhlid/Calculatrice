@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #182C61;
+    background: linear-gradient(25deg,#5d7cff,#f76565,#4967ff);
 }
 
 .calculator{
@@ -34,6 +34,7 @@ body{
 .calculator span:hover{
     cursor: pointer;
     background: grey;
+    transition: 0.9s;;
 }
 
 
@@ -65,7 +66,6 @@ body{
     height:100px;
     background-color: #393e46;
     color: white;
-
 }
  .calculator .perc{
      grid-row: span 2;
@@ -76,7 +76,7 @@ body{
  }
 
  .calculator .perc:hover{
-    background: black
+    background: black;
  }
 
  .calculator .equal{
